@@ -16,7 +16,7 @@ const getUrl =async (req,res)=>{
     })
 
     saveUrl.save()
-    res.send({LognUrl: longUrl, SortUrl:`http://localhost:8000/${randomcode}`})
+    res.send({LognUrl: longUrl, SortUrl:`http://localhost:8000/url/${randomcode}`})
 }
     
 
