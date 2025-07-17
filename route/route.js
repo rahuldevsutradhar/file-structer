@@ -5,4 +5,5 @@ const route = express.Router();
 
 route.use('/url', urlRouter)
 route.use('/auth', auth)
+
 module.exports = route;
